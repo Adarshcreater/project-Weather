@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Weather Dashboard</h1>
+    <div class="search-container">
+      <input type="text" id="location-input" placeholder="Enter location...">
+      <button id="search-btn">Search</button>
+    </div>
+  </header>
+  <main>
+    <section id="current-weather-section">
+      <h2>Current Weather</h2>
+      <div id="current-weather"></div>
+    </section>
+    <section id="forecast-section">
+      <h2>5-Day Weather Forecast</h2>
+      <div id="forecast"></div>
+    </section>
+  </main>
+  <footer>
+    <p>Weather data provided by OpenWeatherMap</p>
+    <p>For documentation and more, visit <a href="#">GitHub Repository</a></p>
+  </footer>
+  <script src="Script.js"></script>
+</body>
+</html>
